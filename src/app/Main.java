@@ -13,6 +13,8 @@ public class Main {
         System.out.println(d);
         int e = sub(a, b);
         System.out.println(e);
+        int f = div(a, b);
+        System.out.println(f);
     }
 
     private static int add(int a, int b) {
@@ -25,5 +27,9 @@ public class Main {
 
     private static int sub(int a, int b) {
         return a - b;
+    }
+
+    private static int div(int a, int b) {
+        return a / b;
     }
 }
